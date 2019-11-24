@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+            <TextView
+                android:id="@+id/numberOneTV"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@color/WHITE"
+
+                android:textSize="70sp"
+                android:textColor="@color/BLACK"
+                android:fontFamily="@font/myfont"
+                android:layout_margin="10dp"
+                android:padding="20dp"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/signTV"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@color/WHITE"
+
+                android:textSize="70sp"
+                android:textColor="@color/BLACK"
+                android:fontFamily="@font/myfont"
+                android:layout_margin="10dp"
+                android:padding="15dp"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/numberTwoTV"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@color/WHITE"
+
+                android:textSize="70sp"
+                android:textColor="@color/BLACK"
+                android:fontFamily="@font/myfont"
+                android:layout_margin="10dp"
+                android:padding="20dp"
+                android:gravity="center"
+                />
+
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/resultET"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Answer"
+            android:maxLines="1"
+            android:inputType="number"
+            android:textSize="50sp"
+            android:textColor="@color/BLACK"
+            android:fontFamily="@font/myfont"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            />
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/backgroundColor"
+            android:text="Submit"
+            android:textSize="50sp"
+            android:textAllCaps="true"
+            android:fontFamily="@font/myfont"
+            android:textStyle="bold"
+            android:layout_marginTop="50dp"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>
